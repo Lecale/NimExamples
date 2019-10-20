@@ -42,7 +42,7 @@ proc main() =
     tv = parseFloat(csv.rowEntry(csv.headers[keyFieldIndex]))
     for i in countup(0, limits.len - 1): #binmen 1 longer than limits
       if tv < parseFloat(limits[i]):
-        echo "dbg: ", tv , " lt " , parseFloat(limits[i])
+        #echo "dbg: ", tv , " lt " , parseFloat(limits[i])
         binmen[i] = binmen[i] + 1   
         binmen[binmen.len-1] = binmen[binmen.len-1] - 1
         break
