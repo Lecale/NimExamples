@@ -1,4 +1,4 @@
-import os, strutils, streams, tables, parsecsv
+import os, strutils, streams, parsecsv
 
 # Parse field in csv file and show histograms
 
@@ -7,7 +7,7 @@ var
 
 proc main() =
   if paramCount() < 4:
-    quit("synopsis: " & getAppFilename() & " filename keyField limits")
+    quit("synopsis: " & getAppFilename() & " filename keyField# altField# limits")
 
   let
     filename = paramStr(1)

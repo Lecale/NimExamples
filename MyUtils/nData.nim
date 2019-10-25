@@ -13,7 +13,8 @@ proc main() =
     strCol("uid"),
     floatCol("result"),
     strCol("appVer"),
-    dateCol("date", format="dd/MM/yyyy hh:mm:ss"),
+    #dateCol("date", format="dd/MM/yyyy hh:mm:ss "),
+    strCol("date"),
     strCol("host"),
     strCol("rwVer")
   ]
@@ -36,7 +37,7 @@ proc main() =
     .title("Distribution of Cold Results")
     .show()
   
-  echo coldDF.count()
+  echo "Cache count: ",coldDF.count()
   
   let coldOld =   df.filter(record => record.uid.startsWith("CACHE"))
       .filter(record => record.rwVer.startsWith(filterO)

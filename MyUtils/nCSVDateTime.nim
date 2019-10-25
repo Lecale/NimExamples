@@ -3,7 +3,7 @@ import os, strutils, streams, parsecsv, times
 
 var Delim = ';'
 proc main() =
-  if paramCount() < 4:
+  if paramCount() < 2:
     quit("synopsis: " & getAppFilename() & " filename , outfile")
 
   let
@@ -31,6 +31,6 @@ proc main() =
       else:
         transform.add(stringOne)
         transform.add(",")
-      output.writeLine(transform)
+    output.writeLine(transform)
   
 main()
