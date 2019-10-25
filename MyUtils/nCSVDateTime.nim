@@ -26,6 +26,7 @@ proc main() =
   
   var stringOne: string
   var transform: string
+  var output = open(outfile, fmWrite)
   var csv: CsvParser
   
   open(csv, file, filename, separator=Delim)
@@ -36,11 +37,13 @@ proc main() =
     for col in items(csv.headers):
       stringOne = csv.rowEntry(col)
       if(stringOne.contains("nanoseconds")):
-        stringOne.replace("(seconds: ","")
-        stringOne.replace(", nanosecond: 0)","")
+        stringOne = stringOne.replace("(seconds: ","")
+        stringOne = stringOne.replace(", nanosecond: 0)","")
         transform.add($fromUnix(parseInt(stringOne).utc)
         transform.add(",")
-      transform.add(stringOne)
-      transform.add(",")
+      else
+        transform.add(stringOne)
+        transform.add(",")
+      output.writeLine(ss)
   
 main()
