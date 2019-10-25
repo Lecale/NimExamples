@@ -1,20 +1,7 @@
-import os, strutils, streams, tables, parsecsv, times
+import os, strutils, streams, parsecsv, times
 # correct output of nData.nim
 
 var Delim = ';'
-var unix: int
-
-#var testData:string = "(seconds: 1560336389, nanosecond: 0)" #they seem to always be 0
-#testData = testData.replace("(" , "")
-#testData = testData.replace(")" , "")
-#testData = testData.replace(" " , "")
-#testData = testData.replace("nanoseconds:" , "")
-#testData = testData.replace("seconds:" , "")
-#echo testData
-#let td = testData.split(',')
-#echo $fromUnix(1560336389).utc
-#echo $fromUnix(parseInt(td[0])).utc
-
 proc main() =
   if paramCount() < 4:
     quit("synopsis: " & getAppFilename() & " filename , outfile")
@@ -39,11 +26,11 @@ proc main() =
       if(stringOne.contains("nanoseconds")):
         stringOne = stringOne.replace("(seconds: ","")
         stringOne = stringOne.replace(", nanosecond: 0)","")
-        transform.add($fromUnix(parseInt(stringOne).utc)
+        transform.add($fromUnix(parseInt(stringOne)).utc)
         transform.add(",")
-      else
+      else:
         transform.add(stringOne)
         transform.add(",")
-      output.writeLine(ss)
+      output.writeLine(transform)
   
 main()
