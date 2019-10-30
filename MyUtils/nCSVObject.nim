@@ -59,7 +59,7 @@ while csv.readRow():
       if sRisk == sSafe :
          addWarm( tests[lookup[sSafe]] , parseFloat(csv.rowEntry(csv.headers[1])) )
       else :
-         addWarm( tests[lookup[sSafe]] , parseFloat(csv.rowEntry(csv.headers[1])) )
+         addCold( tests[lookup[sSafe]] , parseFloat(csv.rowEntry(csv.headers[1])) )
     else:
       nh = nHack(name: sSafe)
       if sRisk == sSafe :
@@ -69,7 +69,6 @@ while csv.readRow():
       tests.add(nh)
 
 var output = open(outfile, fmWrite)
-
 for toast in tests :
   nh = toast
   sRisk = nh.name
