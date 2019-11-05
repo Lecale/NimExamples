@@ -1,5 +1,6 @@
 import strutils, os, times
 import winim
+import nimPNG
 
 # Simple benchmarking
 let time = cpuTime()
@@ -13,3 +14,5 @@ let hDesktopWnd = GetDesktopWindow()
 let hDesktopDC = GetDC(hDesktopWnd)
 let hCaptureDC = CreateCompatibleDC(hDesktopDC)
 let hCaptureBitmap = CreateCompatibleBitmap(hDesktopDC, width, height)
+
+savePNG32("output.png", hCaptureBitmap, width, height)
