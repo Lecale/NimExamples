@@ -79,10 +79,15 @@ proc main() =
   echo "Where would you like the output to be written to?"
   let outfile = readLine(stdin)
   var outfileoutfile = open(outfile, fmWrite)
+  var tCount = 0
   for k, v in matches2.pairs :
     if matches1.hasKey(k) :
       outfileoutfile.writeLine(k & "\t" & v & "\t" & matches1[k]) 
     else :
       outfileoutfile.writeLine(k & "\t" & v & "\tABSENT"  ) 
-  
+      tNew = tNew + 1
+  outfileoutfile.writeLine("");
+  outfileoutfile.writeLine("Unique Old\t"&matches1.len);
+  outfileoutfile.writeLine("Unique New\t"&matches2.len);
+  outfileoutfile.writeLine("New app versions\t"&tNew);
 main()
