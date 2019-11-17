@@ -90,4 +90,6 @@ proc main() =
   outfileoutfile.writeLine("Unique Old\t"&matches1.len);
   outfileoutfile.writeLine("Unique New\t"&matches2.len);
   outfileoutfile.writeLine("New app versions\t"&tNew);
+  outfileoutfile.close()
+  
 main()
