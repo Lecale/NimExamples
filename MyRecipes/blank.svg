@@ -6,56 +6,58 @@
 <g  transform="translate(1.19,1.19)" >
 <path d="
 M0.0 0.0
-L0.0 500
-L500 500
-L500 0.0
+L0.0 380
+L380 380
+L380 0.0
 Z
 " fill="black" fill-rule="nonzero" />
-<line x1="12" y1="12" x2="12" y2="444" fill="none" stroke="silver" stroke-width="0.87px" stroke-linecap="square" />
-<line x1="36" y1="12" x2="36" y2="444" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="60" y1="12" x2="60" y2="444" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="84" y1="12" x2="84" y2="444" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="108" y1="12" x2="108" y2="444" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="132" y1="12" x2="132" y2="444" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="156" y1="12" x2="156" y2="444" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="180" y1="12" x2="180" y2="444" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="204" y1="12" x2="204" y2="444" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="228" y1="12" x2="228" y2="444" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="252" y1="12" x2="252" y2="444" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="276" y1="12" x2="276" y2="444" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="300" y1="12" x2="300" y2="444" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="324" y1="12" x2="324" y2="444" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="348" y1="12" x2="348" y2="444" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="372" y1="12" x2="372" y2="444" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="396" y1="12" x2="396" y2="444" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="420" y1="12" x2="420" y2="444" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="444" y1="12" x2="444" y2="444" fill="none" stroke="silver" stroke-width="0.87px" stroke-linecap="square" />
-<line x1="12" y1="12" x2="444" y2="12" fill="none" stroke="silver" stroke-width="0.87px" stroke-linecap="square" />
-<line x1="12" y1="36" x2="444" y2="36" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="12" y1="60" x2="444" y2="60" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="12" y1="84" x2="444" y2="84" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="12" y1="108" x2="444" y2="108" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="12" y1="132" x2="444" y2="132" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="12" y1="156" x2="444" y2="156" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="12" y1="180" x2="444" y2="180" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="12" y1="204" x2="444" y2="204" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="12" y1="228" x2="444" y2="228" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="12" y1="252" x2="444" y2="252" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="12" y1="276" x2="444" y2="276" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="12" y1="300" x2="444" y2="300" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="12" y1="324" x2="444" y2="324" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="12" y1="348" x2="444" y2="348" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="12" y1="372" x2="444" y2="372" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="12" y1="396" x2="444" y2="396" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="12" y1="420" x2="444" y2="420" fill="none" stroke="silver" stroke-width="0.25px" stroke-linecap="butt" />
-<line x1="12" y1="444" x2="444" y2="444" fill="none" stroke="silver" stroke-width="0.87px" stroke-linecap="square" />
 
-<circle cx="84" cy="84" r="2.2" fill="silver"/>
-<circle cx="84" cy="228" r="2.2" fill="silver"/>
-<circle cx="84" cy="372" r="2.2" fill="silver"/>
-<circle cx="228" cy="84" r="2.2" fill="silver"/>
-<circle cx="228" cy="228" r="2.2" fill="silver"/>
-<circle cx="228" cy="372" r="2.2" fill="silver"/>
-<circle cx="372" cy="84" r="2.2" fill="silver"/>
-<circle cx="372" cy="228" r="2.2" fill="silver"/>
-<circle cx="372" cy="372" r="2.2" fill="silver"/>
+<line x1="10" y1="10" x2="10" y2="370" fill="none" stroke="silver" stroke-width="0.87px" stroke-linecap="square" />
+<line x1="30" y1="10" x2="30" y2="370" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="50" y1="10" x2="50" y2="370" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="70" y1="10" x2="70" y2="370" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="90" y1="10" x2="90" y2="370" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="110" y1="10" x2="110" y2="370" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="130" y1="10" x2="130" y2="370" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="150" y1="10" x2="150" y2="370" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="170" y1="10" x2="170" y2="370" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="190" y1="10" x2="190" y2="370" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="210" y1="10" x2="210" y2="370" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="230" y1="10" x2="230" y2="370" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="250" y1="10" x2="250" y2="370" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="270" y1="10" x2="270" y2="370" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="290" y1="10" x2="290" y2="370" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="310" y1="10" x2="310" y2="370" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="330" y1="10" x2="330" y2="370" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="350" y1="10" x2="350" y2="370" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="370" y1="10" x2="370" y2="370" fill="none" stroke="silver" stroke-width="0.87px" stroke-linecap="square" />
+
+<line x1="10" y1="10" x2="370" y2="10" fill="none" stroke="silver" stroke-width="0.87px" stroke-linecap="square" />
+<line x1="10" y1="30" x2="370" y2="30" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="10" y1="50" x2="370" y2="50" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="10" y1="70" x2="370" y2="70" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="10" y1="90" x2="370" y2="90" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="10" y1="110" x2="370" y2="110" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="10" y1="130" x2="370" y2="130" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="10" y1="150" x2="370" y2="150" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="10" y1="170" x2="370" y2="170" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="10" y1="190" x2="370" y2="190" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="10" y1="210" x2="370" y2="210" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="10" y1="230" x2="370" y2="230" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="10" y1="250" x2="370" y2="250" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="10" y1="270" x2="370" y2="270" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="10" y1="290" x2="370" y2="290" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="10" y1="310" x2="370" y2="310" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="10" y1="330" x2="370" y2="330" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="10" y1="350" x2="370" y2="350" fill="none" stroke="silver" stroke-width="0.40px" stroke-linecap="butt" />
+<line x1="10" y1="370" x2="370" y2="370" fill="none" stroke="silver" stroke-width="0.87px" stroke-linecap="square" />
+
+<circle cx="70" cy="70" r="2.2" fill="silver"/>
+<circle cx="70" cy="190" r="2.2" fill="silver"/>
+<circle cx="70" cy="310" r="2.2" fill="silver"/>
+<circle cx="190" cy="70" r="2.2" fill="silver"/>
+<circle cx="190" cy="190" r="2.2" fill="silver"/>
+<circle cx="190" cy="310" r="2.2" fill="silver"/>
+<circle cx="310" cy="70" r="2.2" fill="silver"/>
+<circle cx="310" cy="190" r="2.2" fill="silver"/>
+<circle cx="310" cy="310" r="2.2" fill="silver"/>
