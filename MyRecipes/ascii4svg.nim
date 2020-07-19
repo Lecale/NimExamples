@@ -8,7 +8,7 @@ type aMkUp = object
        xOrd: int
        yOrd: int
 
-let abc: string = "abcde"
+let abc: string = "abcdefghijklm"
 let xyz: seq[string] = @["e","d","c","b","a"]
 var markUp: seq[aMkUp] = @[]
 var line: seq[string] = @[]
@@ -56,10 +56,11 @@ proc aText*(a: var aMkUp, b: bool): string =
   
 # ascii4svg outputSVG inputAscii inputSVG 
 proc main() =
-  let start = readFile(paramStr(3)) 
-  let startSeq = start.splitLines()
   let fName = paramStr(1)
   var sgf = readfile(paramStr(2))
+  let start = readFile(paramStr(3))
+
+  let startSeq = start.splitLines()
   let ply: seq[string] = sgf.split("$$")
   if ply[1].contains("W") :
     whiteFirst = true
